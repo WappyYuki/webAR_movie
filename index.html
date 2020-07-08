@@ -25,6 +25,7 @@
 
   <!-- rawgithack development URL -->
   <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+  <script src="https://rawgit.com/gasolin/aframe-href-component/master/dist/aframe-href-component.min.js"></script>
 
   <body style="margin: 0px; overflow: hidden;">
     <a-assets>
@@ -54,16 +55,8 @@
         smoothCount="10"
         smoothTolerance="0.01"
         smoothThreshold="5"
+        href="https://www.youtube.com/watch?v=EIzSnQxhlog"
       >
-        <a-video
-          src="#ar-video"
-          position="0.0 -0.3 -0.5"
-          width="512"
-          height="288"
-          rotation="270 0 0"
-          scale="1.0 1.0 1.0"
-          play="true"
-        ></a-video>
       </a-nft>
       <a-entity camera look-controls></a-entity>
     </a-scene>
